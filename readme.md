@@ -36,20 +36,19 @@ Training on average took about 10 minutes on a MacBook Pro equipped with a 2.3 G
 
 ## Results
 
-We trained our model on the 3 filtered datasets below
-nofactors.csv
-Test loss: 0.25880000801213704
-Test accuracy: 0.9369949494949495
+We trained our model on the 3 filtered datasets below:
 
-cleanedonehot.csv
-Test loss: 0.5000135238940894
-Test accuracy: 0.884280303030303
+  nofactors.csv
+  Test loss: 0.25880000801213704
+  Test accuracy: 0.9369949494949495
 
-cleandeddata.csv
-Test loss: 0.33758714681872254
-Test accuracy: 0.9227272727272727
+  cleanedonehot.csv
+  Test loss: 0.5000135238940894
+  Test accuracy: 0.884280303030303
 
-Onehot encoding the categorical data seemed to degrade the model.  
+  cleandeddata.csv
+  Test loss: 0.33758714681872254
+  Test accuracy: 0.9227272727272727
 
 ## Hosting
 
@@ -57,7 +56,7 @@ We recommend hosting the model and API on Azure Functions.  Azure functions have
 
 ## Source
 
-```{python}
+```python
 import pandas as pd
 import numpy as np
 import argparse
