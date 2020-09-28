@@ -1,4 +1,4 @@
-# Anonymous Sales Data Classification with Machine Learning
+# Analyzing the Probability of a Sale from Anonymized Sales Data with a Deep FF Neural Network
 
 ## Introduction
 
